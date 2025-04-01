@@ -1,10 +1,18 @@
 {
   "name": "lexical-vanilla-plugins",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "description": "Vanilla JS (Stimulus-friendly) plugin set for Lexical editor",
   "main": "dist/lexical-vanilla-plugins.js",
   "module": "dist/lexical-vanilla-plugins.mjs",
   "types": "dist/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jetrockets/lexical-vanilla-plugins.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jetrockets/lexical-vanilla-plugins/issues"
+  },
+  "homepage": "https://github.com/jetrockets/lexical-vanilla-plugins#readme",
   "scripts": {
     "build": "vite build"
   },
