@@ -12,7 +12,7 @@ npm install lexical-vanilla-plugins
 yarn add lexical-vanilla-plugins
 ```
 
-## ⚙️ Usage
+## Usage
 
 This package provides a registerToolbarActions function that connects UI buttons to a Lexical editor instance.
 
