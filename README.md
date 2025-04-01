@@ -8,6 +8,8 @@ Currently includes a toolbar action handler with full formatting support. Additi
 
 ```bash
 npm install lexical-vanilla-plugins
+# or
+yarn add lexical-vanilla-plugins
 ```
 
 ## ⚙️ Usage
@@ -32,7 +34,7 @@ const toolbarActions = registerToolbarActions(editor, {
 })
 ```
 
-## ✅ Available Actions
+## Available Actions
 ```js
 toolbarActions.bold()
 toolbarActions.italic()
@@ -50,7 +52,7 @@ toolbarActions.listBullet()
 toolbarActions.listOrdered()
 ```
 
-## 💡 Stimulus Example
+## Stimulus Example
 ```js
 // lexical_controller.js
 import { registerToolbarActions } from 'lexical-vanilla-plugins'
@@ -87,30 +89,16 @@ bold () {
 </button>
 ```
 
-### 🎨 Customization
+### Customization
 	- activeClass – CSS class to apply to buttons when the current selection matches (e.g. bold, ul, link, etc).
 	- Default: 'active'
 	- You can override it with any class name, e.g. 'is-active', 'lexical__btn-active', etc.
 
-⸻
-
-### 🧩 Requirements
+### Requirements
 	- @lexical/list >= 0.29.0 (older versions may insert <ul> even when using 'number' type)
 	- Lexical >= 0.12.0
 
-
-### 🛠 Coming soon
+### Coming soon
 	- Emoji plugin
 	- Link plugin
 	- Color picker plugin
-
-
-
----
-
-## 🚀 Installation
-
-```bash
-npm install lexical-vanilla-plugins
-# or
-yarn add lexical-vanilla-plugins

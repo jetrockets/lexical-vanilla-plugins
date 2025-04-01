@@ -1,6 +1,6 @@
 {
   "name": "lexical-vanilla-plugins",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "Vanilla JS (Stimulus-friendly) plugin set for Lexical editor",
   "main": "dist/lexical-vanilla-plugins.js",
   "module": "dist/lexical-vanilla-plugins.mjs",
