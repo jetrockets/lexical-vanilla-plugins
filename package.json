@@ -2,8 +2,8 @@
   "name": "lexical-vanilla-plugins",
   "version": "0.1.0",
   "description": "Vanilla JS (Stimulus-friendly) plugin set for Lexical editor",
-  "main": "dist/lexical-vanilla-plugins.cjs",
-  "module": "dist/lexical-vanilla-plugins.es.js",
+  "main": "dist/lexical-vanilla-plugins.js",
+  "module": "dist/lexical-vanilla-plugins.mjs",
   "types": "dist/index.d.ts",
   "scripts": {
     "build": "vite build"
