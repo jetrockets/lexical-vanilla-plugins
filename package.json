@@ -1,0 +1,28 @@
+{
+  "name": "lexical-vanilla-plugins",
+  "version": "0.1.0",
+  "description": "Vanilla JS (Stimulus-friendly) plugin set for Lexical editor",
+  "main": "dist/lexical-vanilla-plugins.cjs",
+  "module": "dist/lexical-vanilla-plugins.es.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "vite build"
+  },
+  "keywords": ["lexical", "toolbar", "editor", "vanilla", "stimulus"],
+  "author": "Aleksei Solilin",
+  "license": "MIT",
+  "peerDependencies": {
+    "@lexical/dragon": "^0.29.0",
+    "@lexical/history": "^0.29.0",
+    "@lexical/html": "^0.29.0",
+    "@lexical/link": "^0.29.0",
+    "@lexical/list": "^0.29.0",
+    "@lexical/rich-text": "^0.29.0",
+    "@lexical/selection": "^0.29.0",
+    "@lexical/utils": "^0.29.0",
+    "lexical": "^0.29.0"
+  },
+  "devDependencies": {
+    "vite": "^4.0.0"
+  }
+}
